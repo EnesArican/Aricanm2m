@@ -413,8 +413,7 @@ button.close span{
 }
 .my-account p{margin:0 0 20px;}
 .theme-btn {
-	/*width:10px;*/
-	/* display: inline;*/
+	//display: inline-block;
 	border: 1px solid;
 	text-align: center;
 	border-radius: 6px;
@@ -921,10 +920,17 @@ table.cart-table tbody td .btn-delete-item {float: right;}
 	background-size: cover;
 }
 
+
+
+
+.pushpin{
+	float: right;
+}
+
 .top-bar{
 	/*background-color:#23232d; */
 	/*opacity: 0.7; */
-	background-color: rgba(35, 35, 45, 0.3);
+	background-color: rgba(35, 35, 45, 0.5);
 	margin:0 0 0;
 	padding:7px 0 7px 0;
 	font-size:13px;
@@ -997,7 +1003,7 @@ table.cart-table tbody td .btn-delete-item {float: right;}
 .nav-wrapper{height: 100px;}
 #nav{
 	margin: 0;
-	background: rgba(35, 35, 45, 0.3) !important;
+	background: rgba(35, 35, 45, 0.5) !important;
 
 	/* background-color:#23232d; /*
 	/*opacity: 0.7;*/
@@ -1094,18 +1100,26 @@ table.cart-table tbody td .btn-delete-item {float: right;}
 	background: #d3d3d5;
 }
 
-.slider-caption{
-	top:50%;
-	left:10%;
-	z-index:3;
+.slider-caption h3{
 	color:#fff;
 	display:inline-block;
-	position:absolute;
-	font-size: 70px;
-	line-height: 73px;
+	font-size: 60px;
+	line-height: 63px;
 	font-family: "Bell MT", "Times New Roman";
-	background: rgba(35, 35, 45, 0.3);
-	padding: 3px 21px 10px 21px;
+	background: rgba(35, 35, 45, 0.1);
+	padding: 3px 17px 10px 17px;
+
+	animation-delay: 0.5s;
+}
+
+
+.slider-caption h4{
+	text-align: center;
+	color: #d7d7d7;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: "Palatino Linotype";
+	font-style: italic;
 
 }
 
@@ -1114,7 +1128,7 @@ table.cart-table tbody td .btn-delete-item {float: right;}
 	color: #bfa16b;
 	font-family: "Yellowtail", "Times New Roman";
 	//font-style: italic;
-	font-size: 63px;
+	font-size: 53px;
 
 }
 
@@ -1156,6 +1170,51 @@ table.cart-table tbody td .btn-delete-item {float: right;}
 	font-size:16px;
 }
 .slider-caption .description p{ margin:0;}
+
+/* =============================================
+			Custom Carousel
+============================================= */
+
+.carousel-control{
+	width: 5%;
+}
+
+
+
+.carousel-indicators li{
+	background: rgba(255,255,255,0.20);
+	border: none;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	opacity: 0.1;
+}
+
+
+.slider-caption{
+	position: absolute;
+	top:40%;
+	left:10%;
+	z-index:3;
+}
+
+.slider-btn{
+	white-space: nowrap;
+	display: block;
+	width: 40%;
+	margin: auto;
+
+	animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
 /* =============================================
 			About Us Section
 ============================================= */

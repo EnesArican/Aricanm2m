@@ -62,12 +62,12 @@
 	#brand-slider .owl-controls .owl-buttons .owl-next{margin:-16px -30px 0 0;}
 }
 @media (max-width:1024px){
-	.slider-caption{
-		font-size:60px;
-		line-height:63px;
+	.slider-caption h3{
+		font-size:50px;
+		line-height:53px;
 	}
 	.slider-caption p{
-		font-size:53px;
+		font-size:43px;
 	}
 	.slider-caption .border-center{
 		margin:0 0 15px;
@@ -198,12 +198,17 @@
 		left:auto;
 		right:0;
 	}
-	.slider-caption{
-		font-size: 50px;
-		line-height: 53px;
+	.slider-caption h3{
+		font-size: 40px;
+		line-height: 43px;
 	}
+
+	.slider-btn{
+		width: 50%
+	}
+
 	.slider-caption p{
-		font-size:43px;
+		font-size:33px;
 	}
 	.slider-caption .border-center{
 		padding:0 0 10px;
@@ -363,7 +368,27 @@
 @media (max-width:639px){
 	.owl-theme .owl-controls .owl-buttons .owl-prev,
 	.owl-theme .owl-controls .owl-buttons .owl-next{ display:none;}
-	.slider-caption{ display:none;}
+	.slider-caption h3{
+		font-size:20px;
+		line-height:23px;
+	}
+
+	.slider-btn{
+		font-size:9px;
+		line-height:23px;
+		width: 60%
+	}
+
+	.slider-caption{
+		top: 25%;
+		left: 30%;
+	}
+
+	.carousel-indicators li { visibility: hidden; }
+
+	.slider-caption p{
+		font-size:13px;
+	}
 	/*.col-sm-6.col-xs-6{ width:100%;}*/
 	.getstarted h3 {
 		font-size: 20px;
