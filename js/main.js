@@ -87,6 +87,26 @@ $(document).ready(function (e) {
     });
 
 
+    /* -------------------------------------
+     SITE NAV BUTTONS
+     -------------------------------------- */
+    $('#nav ul li a').click(function() {
+
+        var id = $(this).parent().attr('id');
+       // alert(id);
+
+       // $(this).parent().addClass('hello');
+
+
+        //remove the current active class
+       // $('#nav ul li').each(function() {})
+
+        // add active class to selected li
+        //jQuery().addClass(".active");
+    })
+
+
+
 
     /* -------------------------------------
      PROGRESS BAR

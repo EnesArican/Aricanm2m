@@ -1,4 +1,6 @@
-#nav ul li a{color:#555;}
+#nav ul li a{
+	color: #ffffff;
+}
 .email em a:hover,
 .slider-caption .title,
 .product:hover .detail .title,
